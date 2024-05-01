@@ -1,0 +1,227 @@
+body{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.grid{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: 300px 300px 300px 100px;
+    gap: 10px;
+}
+/* .grid-item{
+    background-color: purple;
+    font-size: 3rem;
+     */
+
+.tall{
+    grid-row: span 4;
+}
+.bg1B{
+    background-image: url(./images/blue-peacock.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg2B{
+    background-image: url(./images/blue-bird.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-BL1{
+    background-image: url(./images/blue-flame.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.grid-item-BL2{
+    background-image: url(./images/blue-lady.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg1P{
+    background-image: url(./images/face-model.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+.bg2P{
+    background-image: url(./images/pink-model.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-PL1{
+    background-image: url(./images/pink-dog.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-PL2{
+    background-image: url(./images/pink-perfume.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tallA{
+    grid-row: span 25;
+}
+.bg1G{
+    background-image: url(./images/ice-block.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.bg2G{
+    background-image: url(./images/green-model.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-GL1{
+    background-image: url(./images/green-grass.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.grid-item-GL2{
+    background-image: url(./images/green-cucumber.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.tallGP{
+    grid-row: span 50;
+}
+.tallGL{
+    grid-row: span 50;
+}
+.tallGL2{
+    grid-row: span 25;
+}
+
+.pre-foot{
+    display: flex;
+    margin: 100px 80px 50px 100px;
+    gap: 100px;
+}
+
+.pre-foot-left{
+    display: flex;
+    flex-direction: column;
+}
+
+.pre-foot-left a{
+    display: flex;
+    justify-content: left;
+    color: #032d60;
+    margin: 0 0 20px 0;
+}
+
+
+.ft-icon-cont{
+    display: flex;
+    gap: 15px;
+}
+.ft-icon-cont:hover a{
+    color: green;
+}
+
+.pre-foot-left:hover a{
+    color: #0176d3;
+}
+
+.pre-foot-left h4{
+    color: rgb(68, 68, 68);
+    margin-bottom: 20px;
+}
+
+.pre-foot-right{
+    display: flex;
+    gap: 20px;
+}
+
+.pre-foot-right h4{
+    color: rgb(68, 68, 68);
+}
+
+.list-cont{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.list-cont h4{
+    margin-bottom: 20px;
+}
+.pre-foot-right a{
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    display: flex;
+    justify-content: left;
+}
+.banner{
+    height: 400px;
+    background-image: url(./images/banner-picture.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 10px;
+}
+.overlay{
+    height: 400px;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+}
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    padding-bottom:  100px;
+}
+.navigation ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+.navigation a{
+    text-decoration: none;
+    color:white;
+    padding: 0 25px;
+    display: block;
+}
+.navigation ul li:hover a {
+    background-color: grey;
+    color: #ffffff;
+}
+.text{
+    text-align: center;
+    color: white;
+    font-weight: 1000;
+    padding-top: 100px;
+    padding-left: 250px;
+
+}
+.text h1 {
+    font-size: 40px;
+}
+.text p{
+    font-size: 20px;
+}
+input{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+}
